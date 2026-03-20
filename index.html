@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NRRU SHOP | หน้าแรก</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <div class="logo">NRRU <span>SHOP</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">หน้าแรก</a></li>
+            <li><a href="Salespage.html">สินค้า/บริการ</a></li>
+            <li><a href="about.html">ข้อมูลส่วนตัว</a></li>
+            <li><a href="contact.html">ติดต่อเรา</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="cart-container">
+    <div class="cart-status">
+        <span class="cart-icon">🛒</span> 
+        <span>ตะกร้า:</span> <b id="cart-count">0</b>
+    </div>
+</div>
+
+<section class="hero-v2">
+    <div class="hero-content">
+        <h1>NRRU SHOP</h1>
+        <p>คณะวิทยาศาสตร์และเทคโนโลยี</p>
+        <a href="Salespage.html" class="btn-primary">เลือกซื้อสินค้า</a>
+    </div>
+</section>
+
+<main class="container">
+    <h2 class="section-title">สินค้าแนะนำ</h2>
+    <div class="title-underline"></div>
+    <div class="product-grid">
+        <div class="product-card">
+            <img src="1.jpg" alt="product">
+            <h3>เสื้อคณะวิทยาศาสตร์ฯ</h3>
+            <p class="price">฿350</p>
+            <button class="btn-buy" onclick="addToCart('เสื้อคณะวิทยาศาสตร์ฯ', 350)">+ เพิ่มลงตะกร้า</button>
+        </div>
+        <div class="product-card">
+            <img src="2.jpg" alt="product">
+            <h3>เสื้อตะโกราย Sci-Tech</h3>
+            <p class="price">฿350</p>
+            <button class="btn-buy" onclick="addToCart('เสื้อตะโกราย Sci-Tech', 350)">+ เพิ่มลงตะกร้า</button>
+        </div>
+        <div class="product-card">
+            <img src="3.jpg" alt="product">
+            <h3>เสื้อนักกีฬา</h3>
+            <p class="price">฿350</p>
+            <button class="btn-buy" onclick="addToCart('เสื้อนักกีฬา', 350)">+ เพิ่มลงตะกร้า</button>
+        </div>
+    </div>
+</main>
+<footer><p>© 2026 NRRU SHOP | Science & Technology Club</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
