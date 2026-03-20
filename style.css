@@ -261,3 +261,14 @@ footer {
     .nav-links { gap: 15px; font-size: 0.9rem; }
     .hero-v2 h1 { font-size: 1.8rem; }
 }
+
+/* =============================== */
+/* 🔲 ABOUT WRAPPER (กรอบใหญ่)    */
+/* =============================== */
+.about-wrapper {
+    background: var(--white);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    border-top: 6px solid var(--gold);
+}
